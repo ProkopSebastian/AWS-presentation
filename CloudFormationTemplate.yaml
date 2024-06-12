@@ -371,7 +371,7 @@ Resources:
   AlarmDatabaseConnections:
     Type: AWS::CloudWatch::Alarm
     Properties: 
-      AlarmDescription: "opis pozaru"
+      AlarmDescription: "Database connections exceeded treshold"
       Namespace: "AWS/RDS"
       MetricName: "DatabaseConnections"
       Dimensions:
